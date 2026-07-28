@@ -693,3 +693,59 @@ body {
     font-size: 0.98rem;
     line-height: 1.65;
 }
+/* Container styling to bound and center the bar */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid #e2e8f0;
+  border-radius: 50px;
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style the text input field */
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #1a202c;
+  background: transparent;
+}
+
+/* Custom styles for native search cancel button padding */
+.search-input::-webkit-search-cancel-button {
+  cursor: pointer;
+  position: relative;
+  right: 5px;
+}
+
+/* Style the interactive button */
+.search-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 20px;
+  color: #718096;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+/* Hover effects */
+.search-button:hover {
+  color: #3182ce;
+}
+
+/* Active focus ring applied to container when input is focused */
+.search-container:focus-within {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
