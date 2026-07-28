@@ -686,3 +686,10 @@ body {
         padding: 16px;
     }
 }
+.section-introduction {
+    max-width: 790px;
+    margin: -4px 0 20px;
+    color: var(--muted-ink);
+    font-size: 0.98rem;
+    line-height: 1.65;
+}
