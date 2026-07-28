@@ -693,59 +693,65 @@ body {
     font-size: 0.98rem;
     line-height: 1.65;
 }
-/* Container styling to bound and center the bar */
+
+/* Search Bar Container */
 .search-container {
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 500px;
-  margin: 20px auto;
-  border: 2px solid #e2e8f0;
-  border-radius: 50px;
-  background-color: #ffffff;
+  margin: 1.5rem auto;
+  background: #fffdf8;
+  border: 2px solid #d6d0c4;
+  border-radius: 999px;
   overflow: hidden;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* Style the text input field */
+/* Search Input */
 .search-input {
   flex: 1;
   border: none;
   outline: none;
-  padding: 12px 20px;
-  font-size: 16px;
-  color: #1a202c;
+  padding: 0.85rem 1.25rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #3e3a35;
   background: transparent;
 }
 
-/* Custom styles for native search cancel button padding */
+.search-input::placeholder {
+  color: #8a8479;
+}
+
+/* Native clear button */
 .search-input::-webkit-search-cancel-button {
   cursor: pointer;
   position: relative;
   right: 5px;
 }
 
-/* Style the interactive button */
+/* Search Button */
 .search-button {
-  background: none;
   border: none;
-  outline: none;
+  background: transparent;
+  color: #6d7a5c;
   cursor: pointer;
-  padding: 0 20px;
-  color: #718096;
+  padding: 0 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.2s ease;
+  transition: color 0.25s ease, transform 0.2s ease;
 }
 
-/* Hover effects */
 .search-button:hover {
-  color: #3182ce;
+  color: #516046;
+  transform: scale(1.05);
 }
 
-/* Active focus ring applied to container when input is focused */
+/* Focus State */
 .search-container:focus-within {
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+  border-color: #7d8f6a;
+  box-shadow: 0 0 0 4px rgba(125, 143, 106, 0.2);
 }
