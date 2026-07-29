@@ -281,37 +281,9 @@ nav a.active::before {
     padding: clamp(42px, 6vw, 82px);
 
     background:
-        radial-gradient(
-            circle at 94% 7%,
-            rgba(175, 228, 202, 0.5) 0 54px,
-            transparent 55px
-        ),
-        radial-gradient(
-            circle at 86% 13%,
-            rgba(200, 183, 242, 0.45) 0 18px,
-            transparent 19px
-        ),
+        ,
         #ffffff;
 }
-
-.right::before {
-    content: "SUBJECT GUIDE  •  BEGINNER FRIENDLY";
-    display: inline-flex;
-
-    padding: 9px 14px;
-    margin-bottom: 24px;
-
-    background: var(--lime);
-    border: 1px solid #879f49;
-    border-radius: 999px;
-    color: #1b2112;
-
-    font-size: 0.75rem;
-    font-weight: 850;
-    letter-spacing: 0.1em;
-    line-height: 1.2;
-}
-
 /* Heading hierarchy */
 
 h1 {
