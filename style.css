@@ -868,3 +868,59 @@ h6 {
         line-height: 1.22;
     }
 }
+/* Dark Mode */
+
+body.dark-mode {
+    background: #1b1d22;
+    color: #f2f2f4;
+}
+
+body.dark-mode .container {
+    background: #1b1d22;
+    border-color: #50545e;
+}
+
+body.dark-mode .left {
+    background: #252831;
+    border-right-color: #50545e;
+}
+
+body.dark-mode .right {
+    background: #1b1d22;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #ffffff;
+}
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode span {
+    color: #d7d9df;
+}
+
+body.dark-mode .resource-list li {
+    background: #2d3139;
+    border-color: #50545e;
+}
+
+body.dark-mode nav a {
+    color: #ececec;
+}
+
+body.dark-mode nav a:hover {
+    background: #363a45;
+}
+
+body.dark-mode .resource-list a {
+    color: #b8b7ff;
+}
+
+body.dark-mode .resource-list a:hover {
+    color: #ffffff;
+}
