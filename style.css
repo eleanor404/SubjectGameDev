@@ -934,6 +934,7 @@ body.dark-mode .right a {
 }
 
 body.dark-mode .resource-list a:hover,
+body.dark-mode .resource-list a:visited,
 body.dark-mode .right a:hover {
     color: #ffffff;
 }
