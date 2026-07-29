@@ -266,7 +266,7 @@ nav a.active::before {
 /* Heading hierarchy */
 
 h1 {
-    max-width: 950px;
+    max-width: 900px;
     margin: 0 0 24px;
     color: var(--ink);
 
@@ -278,7 +278,7 @@ h1 {
 
 /* guide-level section heading */
 h2 {
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 0 22px;
     color: var(--ink);
 
@@ -290,7 +290,7 @@ h2 {
 
 h3 {
     position: relative;
-    max-width: 880px;
+    max-width: 860px;
 
     margin: 52px 0 18px;
     padding-left: 20px;
