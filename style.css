@@ -901,6 +901,7 @@ body.dark-mode h6 {
 
 /* Normal reading text */
 body.dark-mode p,
+body.dark-mode ul,
 body.dark-mode li {
     color: #f2f4f8;
 }
