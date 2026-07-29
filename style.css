@@ -937,3 +937,30 @@ body.dark-mode .resource-list a:hover,
 body.dark-mode .right a:hover {
     color: #ffffff;
 }
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode ul li,
+body.dark-mode ol li {
+    color: #f2f4f8;
+}
+
+body.dark-mode .resource-list li {
+    color: #f2f4f8;
+}
+
+body.dark-mode .resource-list span,
+body.dark-mode .section-introduction {
+    color: #d8dce5;
+}
+body.dark-mode {
+    --body-text: #f2f4f8;
+    --muted-ink: #d8dce5;
+    --ink: #ffffff;
+
+    --card-background: #2d313b;
+    --line: #4f5562;
+    --sidebar-background: #2b303b;
+
+    background: #1b1d22;
+    color: var(--body-text);
+}
